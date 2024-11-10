@@ -35,8 +35,8 @@ You can see the result of my version below:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo solution URL](https://github.com/lia-oliveira/qrcode-component)
+- Live Site URL: [QR Component live site URL](https://qrcode-component-khaki.vercel.app/)
 
 ## My process
 
