@@ -89,3 +89,6 @@ You can see the result of my version below:
 ## Acknowledgments
 
 Thank you very much to the Frontend Mentor team for this challenge! I was looking for a project to improve my skills, and this was a great start. Thanks again, and see you in the next challenge!
+
+Many thanks to user A_boo_bae for the valuable feedback after I published this project. I was able to implement most of the suggestions.
+
