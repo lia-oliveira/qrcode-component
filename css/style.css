@@ -7,12 +7,20 @@
     --Slate-500: hsl(216, 15%, 48%);
     --Slate-900: hsl(218, 44%, 22%);
     --attribution: hsl(228, 45%, 44%);
+    /*font*/
+    --font-primary: 'Outfit', sans-serif;
+    --fs-base: 16px;
+    --fs-h1: 1.375rem;
+    --fs-p: 0.9375rem;
+    --fs-attribution: 0.6875rem;
+    --fw-h1: 900;
+    --fw-p: 400;
 }
 
 @font-face {
     font-family: 'Outfit';
     src: url('./../font/Outfit-Regular.ttf') format('truetype');
-    font-weight: 400;
+    font-weight: var(--fw-p);
     font-style: normal;
 }
 
@@ -27,7 +35,7 @@ body{
     margin: 0;
     padding:0;
     height: 100vh;
-    font-family: 'Outfit', serif;
+    font-family: var(--font-primary);
     background-color: var(--Slate-300);
     display: flex;
     flex-direction: column;
@@ -74,7 +82,7 @@ main .text{
 main h1{
     margin: 0;
     width: 256px;
-    font-size: 22px;
+    font-size: var(--fs-h1);
     text-align: center;
     color:var(--Slate-900);
     line-height: 120%;
@@ -82,7 +90,7 @@ main h1{
 
 main p{
     width: 256px;
-    font-size: 15px;
+    font-size: var(--fs-p);
     text-align: center;
     color: var(--Slate-500);
     line-height: 140%;
@@ -94,7 +102,7 @@ footer{
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: var(--fs-attribution);
 }
 
 .attribution a {
