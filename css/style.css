@@ -49,7 +49,6 @@ body {
 }
 
 body{
-    height: 100%;
     font-family: var(--ff-outfit);
     background-color: var(--co-Slate-300);
     font-size: var(--fs-15);
@@ -62,9 +61,7 @@ body{
     display: flex;    
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
+    align-items: center;   
 }
 
 main{
@@ -105,7 +102,6 @@ h1 {
     font-weight: var(--fw-h1);
     text-align: center;    
     line-height: 120%;
-    /*letter-spacing: -0.10rem; */
 }
 
 main p{
